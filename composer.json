@@ -1,0 +1,25 @@
+{
+    "name": "rgonzm/motorcycle",
+    "description": "Proyecto de prueba para aplicar conocimientos a la POO",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.22",
+        "symfony/console": "^3.2",
+        "catfan/medoo": "^1.1",
+        "nesbot/carbon": "^1.22"
+    },
+    "license": "n/a",
+    "authors": [
+        {
+            "name": "Rodrigo Gonzalez",
+            "email": "ragonzalm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Abstracts\\": "Abstracts/",
+            "Classes\\":"Classes/",
+            "Interfaces\\":"Interfaces/"
+        }
+    }
+}
